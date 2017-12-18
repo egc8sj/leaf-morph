@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Variations in Leaf Morphology</title>
+
+	<!-- Link to d3 -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	
+	<!-- Link to fontawesome -->
+	<script src="https://use.fontawesome.com/0ae7c1f7c9.js"></script>
+	
+	<!-- Custom styles -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!-- Link to Mapbox GL JS library -->	
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
+
+	<!-- Link to Mapbox GL JS css stylesheet -->	
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
+
+
+</head>
+<body>
+
+	<div id="map">
+	<!-- <img src="images/map.svg" height="700px" width="*" alt="map of Australian geological provinces"> -->
+	</div>
+
+	<div id="summary">
+		<h2>Leaf Morphology by Latitude</h2>
+		<p>This visualization presents selected results from the 2012 study, "Leaf morphology shift linked to climate change" by Greg R. Guerin, Haixia Wen, and Andrew J. Lowe. The study compared leaf widths, lengths, and surface areas on <i>Dodonaea viscosa subsp. angustissima</i> in the Adelaide Geosyncline region, South Australia. Among other results, the study found that leaf width corollated negatively with latitude; leaves farther north within the region were narrower than leaves farther south.</p>
+		<h5>REFERENCE</h5>
+		<h5>Guerin G. R., Wen H., Lowe A. J. 2012. Leaf morphology shift linked to climate change. Biology Letters 8(5). 10.1098/rsbl.2012.0458 <a href="https://www.ncbi.nlm.nih.gov/pubmed/22764114" alt="link to article">https://www.ncbi.nlm.nih.gov/pubmed/22764114</a></h5>
+	</div>
+
+
+	<div id="chart" align=center>		
+		<svg id="bar-chart" width="1280" height="220"></svg>
+	</div>
+
+</body>
+
+	<!-- Custom javascript (d3) -->	
+	<script src="scripts.js"></script>
+	<script src="map.js"></script>
+	
+</html>
