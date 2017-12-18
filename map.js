@@ -17,6 +17,13 @@ var map = new mapboxgl.Map({
 	style: 'mapbox://styles/egc8sj/cjbb6ogl260jm2snpsbgilrnc' 
 });
 
+
+map.on('click', function(e) {
+	setView(
+		<LatLng> -32.888652, 138.065116,
+		<Number> 6.5,
+		)
+})
 // code to add interactivity once map loads
 // map.on('load', function() {	// the event listener that does some code after the map loads
 	
