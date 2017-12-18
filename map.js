@@ -12,8 +12,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZWdjOHNqIiwiYSI6ImNqNzB1OTRiejBnc20zM21xam12Y
 // Link to a mapbox studio style
 var map = new mapboxgl.Map({
 	container: 'map',
-	minZoom: 10,
-	maxZoom: 17,
+	minZoom: 4,
+	maxZoom: 6.5,
 	style: 'mapbox://styles/egc8sj/cjbb6ogl260jm2snpsbgilrnc' 
 });
 
