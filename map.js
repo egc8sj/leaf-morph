@@ -18,14 +18,14 @@ var map = new mapboxgl.Map({
 });
 
 // code to add interactivity once map loads
-map.on('load', function() {	// the event listener that does some code after the map loads
+// map.on('load', function() {	// the event listener that does some code after the map loads
 	
 	// the categories we created from the cville-parks map layer
 		// var layers = [
 		// '<font color="#e6e6e6" size="2em">BUILDINGS</font>',
 		// '<font color="#e6e6e6" size="2em">RESIDENTIAL BUILDINGS <i>(Occupied)</i></font>', 
 		// '<font color="#e6e6e6" size="2em">RESIDENTIAL LOTS <i>(Vacant)</i></font>',  
-	];
+	// ];
 	
 	// the colors we chose to style the parks on the map for each category
 	// var colors = [
